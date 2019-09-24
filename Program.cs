@@ -25,6 +25,12 @@ namespace TODO
                     case ConsoleKey.D1:
 
                         break;
+
+
+                    case ConsoleKey.D3:
+
+                        shouldRun = false;
+                        break;
                 }
             }
         }
